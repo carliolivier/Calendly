@@ -9,7 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^12.6.0"
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "cypress-mailslurp": "^1.6.0"
   }
 }
