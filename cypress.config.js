@@ -1,5 +1,11 @@
-module.exports = {
+const { defineConfig } = require('cypress');
+
+module.exports = defineConfig({
+ 
   e2e: {
-    chromeWebSecurity: false,
-    },
-  };
+    defaultCommandTimeout: 40000,
+    responseTimeout: 40000,
+    requestTimeout: 40000,
+  },
+});
+
