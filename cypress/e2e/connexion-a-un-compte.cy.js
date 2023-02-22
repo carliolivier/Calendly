@@ -1,5 +1,6 @@
 // <reference types="cypress" />
 
+
 describe("connexion reussi a un compte", () => {
 	it.only("connexion passante", () => {
         cy.visit("https://calendly.com/");
@@ -57,3 +58,4 @@ describe("connexion reussi a un compte", () => {
                         
                         });
 });
+
