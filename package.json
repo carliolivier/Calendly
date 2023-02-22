@@ -1,10 +1,9 @@
 {
   "name": "projetcalendly",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open"
   },
   "keywords": [],
   "author": "",
@@ -14,4 +13,18 @@
     "cypress": "^12.6.0",
     "cypress-mailslurp": "^1.6.0"
   }
+
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "cypress-wait-until": "^1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carliolivier/Calendly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carliolivier/Calendly/issues"
+  },
+  "homepage": "https://github.com/carliolivier/Calendly#readme",
+  "description": ""
 }
